@@ -20,7 +20,7 @@ jobs:
       - name: Extract ZIP file
         run: |
           mkdir -p extracted_files
-          unzip path/to/yourfile.zip -d extracted_files/
+          unzip html5up-massively.zip -d extracted_files/
 
       - name: Commit extracted files
         run: |
